@@ -44,7 +44,7 @@ const Hero = () => {
 
     const frameCount = 28;
     const currentFrame = (index: number) => 
-      `/hero-sequence/ezgif-frame-${(index + 1).toString().padStart(3, '0')}.jpg`;
+      `${import.meta.env.BASE_URL}hero-sequence/ezgif-frame-${(index + 1).toString().padStart(3, '0')}.jpg`;
 
     const images: HTMLImageElement[] = [];
     const sequence = { frame: 0 };
