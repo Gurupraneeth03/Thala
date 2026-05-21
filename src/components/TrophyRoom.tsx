@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Trophy, Star, Crown, Medal } from 'lucide-react';
 
